@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-color: #6A9C89;
+
+
+}
+form{
+    width: 100%;
+    border: 3px solid black;
+    display: grid;
+    gap: 10px;
+    padding:  50px;
+    margin-top: 40%;
+    border-radius: 100px 0px ;
+    background-color: #C1D8C3;
+}
+
+.movie{
+    display: grid;
+    place-items: center;
+}
+input{
+    height: 30px;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #CEDEBD;
+}
+label{
+    font-weight: bolder;
+ }

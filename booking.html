@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./booking.css">
+   
+</head>
+<body>
+    <h1>Movie Ticket Booking </h1>
+    <div class="movie">
+        <form action="">
+            <label for="">Movie Name</label>
+            <input list="nameofmovie">
+            <datalist id="nameofmovie">
+                <option>leo</option>
+                <option>leo</option>
+                <option>leo</option>
+            </datalist>
+            <label for="">Select date & time</label>
+            <input type="datetime-local">
+            <label for="">Number of Ticket</label>
+            <input type="number" max="10" min="1">
+            <input type="submit" onclick="booking()">
+            
+        </form>
+    </div>
+    <script>
+        function booking() 
+        {
+            window.open("suc.html","_self()")
+        }
+    </script>
+</body>
+</html>
